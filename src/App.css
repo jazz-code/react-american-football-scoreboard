@@ -5,11 +5,11 @@
 
 .scoreboard {
   width: 58%;
-  margin: 10rem auto;
+  margin: 5rem auto;
   background-color: #0b5402;
   color: white;
   border-radius: 0.5rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
   padding: 5rem;
   border: 4px solid #aaaaaa;
 }
@@ -116,7 +116,13 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal {
-  margin: 1rem;
-  border-radius: 4px;
+.awayButtons__fieldGoal,
+.quaterButton {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  padding: 11px 10px;
+  background-color: green;
+  color: white;
+  font-weight: 650;
 }
