@@ -27,8 +27,7 @@ const Timer = () => {
 
   return (
     <div className="timer">
-      00:03
-      <div className="time">{seconds}s</div>
+      <div className="time">00:0{seconds}</div>
       <div className="row">
         <button
           className={`buttons button-primary-${
