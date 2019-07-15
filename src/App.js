@@ -44,8 +44,18 @@ function App() {
           </button>
         </div>
         <div className="awayButtons">
-          <button className="awayButtons__touchdown">Away Touchdown</button>
-          <button className="awayButtons__fieldGoal">Away Field Goal</button>
+          <button
+            className="awayButtons__touchdown"
+            onClick={() => setValueTigers(valueTigers + 7)}
+          >
+            Away Touchdown
+          </button>
+          <button
+            className="awayButtons__fieldGoal"
+            onClick={() => setValueTigers(valueTigers + 3)}
+          >
+            Away Field Goal
+          </button>
         </div>
       </section>
     </div>
