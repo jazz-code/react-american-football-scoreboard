@@ -44,6 +44,12 @@ function App() {
             Home Field Goal
           </button>
         </div>
+        <button
+          className="quaterButton"
+          onClick={() => setValueQuarter(valueQuarter + 1)}
+        >
+          Quarter
+        </button>
         <div className="awayButtons">
           <button
             className="awayButtons__touchdown"
